@@ -85,7 +85,7 @@ randomCityDiv.addEventListener("click", () => {
 // Refresh random city button
 rfbtn.addEventListener("click", setRandomCity);
 
-// On page load → load last city or default Mumbai
+// default Mumbai...>
 window.onload = () => {
   const savedCity = localStorage.getItem("lastCity");
   if (savedCity) {

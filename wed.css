@@ -4,7 +4,6 @@
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -98,7 +97,6 @@ input::placeholder {
   gap: 3vh;
   height: 90%;
   width: 95%;
-  /* background-color: rgb(119, 103, 83); */
 }
 .day-night{
   overflow: hidden;
@@ -107,7 +105,6 @@ input::placeholder {
   justify-content: center;
   width:20%;
   height:20%;
-  /* background-color:rgba(130, 53, 53, 0.584); */
 }
 .day{
   display: flex;
@@ -117,7 +114,6 @@ input::placeholder {
   height:100%;
 }
 .btn-d {
-  /* background-color: rgb(108, 82, 49); */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -127,7 +123,6 @@ input::placeholder {
 .btn-d button {
   border-radius: 10px;
   border: none;
-  /* background-color: rgba(255, 255, 255, 0.211); */
   height: 70%;
   width: 15%;
 }
@@ -144,11 +139,9 @@ input::placeholder {
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
-  /* background-color: rgb(133, 98, 55); */
 }
 .ren-t:hover {
   color: #0055aa;
-  /* text-decoration: underline; */
 }
 #rfbtn {
   background-color: #ffffff6c;
@@ -166,7 +159,6 @@ input::placeholder {
   background-color: rgba(255, 255, 255, 0.222);
 }
 .temp {
-  /* backdrop-filter: blur(10px); */
   font-size: 8vh;
   display: flex;
   flex-direction: column;
@@ -174,7 +166,6 @@ input::placeholder {
   justify-content: center;
   width: 95%;
   height: 70%;
-  /* background-color: rgba(138, 113, 82, 0.321); */
 }
 .add {
   display: flex;
@@ -182,7 +173,6 @@ input::placeholder {
   justify-content: space-around;
   width: 95%;
   height: 25%;
-  /* background-color: rgb(138, 113, 82); */
 }
 #txt{
   font-weight:400;
