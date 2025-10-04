@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="wed.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="parent">
+    <!-- Left section -->
+    <div class="sec1">
+      <div class="ser">
+        <input id="city" type="text" placeholder="Enter city">
+        <button id="ser-btn"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="ran">
+        <div class="btn-d"><span id="txt">click here to get arandom city →</span><button id="rfbtn"><i class="fa-solid fa-rotate"></i></button></div>
+        <div class="ren-t" id="randomCity"></div>
+        <div class="day-night">
+          <img src="" alt="img" class="day">
+        </div>
+      </div>
+    </div>
+
+    <!-- Right section -->
+    <div class="sec2">
+      <div class="temp">
+        <span id="cityname"></span>
+        <span class="ct-temp" id="temperature">-- °C</span>
+      </div>
+      <div class="add">
+        <div class="ad">
+          <span class="adt">Humidity</span>
+          <span class="em">💧</span>
+          <span id="humid">--</span>
+        </div>
+        <div class="ad">
+          <span class="adt">Wind</span>
+          <span class="em">💨</span>
+          <span id="wind">--</span>
+        </div>
+        <div class="ad">
+          <span class="adt">Feels like</span>
+          <span class="em" id="fel-i">☁️</span>
+          <span id="feel">--</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="wed.js"></script>
+</body>
+</html>
